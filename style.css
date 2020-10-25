@@ -60,7 +60,7 @@ color: #fbc4ab;
 .container{
    display: flex;
    flex-direction: column;
-   margin-top: 580px;
+   margin-top: 260px;
    margin-left: 200px;
 }
 
@@ -137,19 +137,20 @@ color: #fbc4ab;
     display: flex;
     float: right;
     margin-right: 170px;
-    margin-top: 555px;
+    margin-top: 240px;
 }
 
 
 .card {
     width: 200px;
-    height: 250px;
+    height: 270px;
     margin: 30px;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     overflow: hidden;
     transition: 0.5s;
     background: center no-repeat;
+    background-color: #fef9ef;
   }
 
 .idk1:hover, .idk2:hover{
@@ -160,6 +161,20 @@ color: #fbc4ab;
 .caption{
     text-align: center;
     margin-top: 7px;
+}
+
+.mySlides {display:none;}
+
+
+.imgg{
+    width: 700px;
+    height: 400px;
+   
+}
+
+.imggg{
+    margin-left: 130px;
+    margin-top: 60px;
 }
 
 

@@ -31,3 +31,4 @@ igmArr.forEach(function(img){
     img.style.left = (img.offsetleft) - (xAmount/movementStrength) + "px";
     img.style.top = (img.offsetTop) - (yAmount/movementStrength) + "px" ;
 })
+

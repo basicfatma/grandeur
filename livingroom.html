@@ -3,8 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>living room</title>
+
 </head>
 <body>
+    <header>
+        <nav>
+        <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+        <li><a href="#">contact</a></li>
+        </ul>
+        </nav>
+    </header> 
+    
+    
+
+<div class="w3-content w3-display-container">
+    <div class="imggg">
+  <img class="mySlides imgg" src="./images/6.jpg" >
+  <img class="mySlides imgg" src="./images/hd2.jpg" >
+  <img class="mySlides imgg" src="./images/hd3.jpg" >
+  <img class="mySlides imgg" src="./images/hd4.jpg" >
+</div>
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+   <div>
+<div id="cardd">
+    <div class="card idk1">
+       
+        <img  src="./images/5.jpg" width="200px" height="200px" >
+    
+            <h3 class="caption"> normal livingroom</h3>
+      </div>
+
+      <div class="card idk2">
+        <img  src="./images/3.jpg" width="200px" height="200px" >
+            <h3 class="caption"> fancy livingroom</h3>
+      </div>
+    </div>
+</div> 
+    
+
+
+</div>
+<div class="container">
+<button class="btn btn3">search</button>
+<a href="./livingroom.html">  
+    <button class="btn btn1">living room</button> 
+</a>
+<a href="./index.html">
+<button class="btn btn2">bedroom</button>
+</a>
+</div>
+
 </body>
 </html>
